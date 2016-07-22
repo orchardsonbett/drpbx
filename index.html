@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Dropbox</title>
+
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/ionicons.eot">
+    <link rel="stylesheet" href="fonts/ionicons.svg">
+    <link rel="stylesheet" href="fonts/ionicons.ttf">
+    <link rel="stylesheet" href="fonts/ionicons.woff">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="container">
+        <!--aside section-->
+        <aside class="small-6 large-3 columns">
+            <div class="logo">
+                <i class=" small-centered large-centered small-12 large-12 columns fa fa-dropbox fa-5x"></i>
+            </div>
+            <div class="console">
+                <ul class="menu">
+                    <li class="small-12 large-12 columns">
+                        <a href=""><i class="icony ion-document-text"></i>Files</a>
+                    </li>
+                    <li class="small-12 large-12 columns">
+                        <a href=""><i class="icony ion-image"></i>Photos</a>
+                    </li>
+                    <li class="small-12 large-12 columns">
+                        <a href=""><i class="icony ion-android-share-alt"></i>Sharing</a>
+                    </li>
+                    <li class="small-12 large-12 columns">
+                        <a href=""> <i class="icony ion-link"></i>Links</a>
+                    </li>
+                    <li class="small-12 large-12 columns">
+                        <a href=""><i class="icony ion-android-time"></i>Events</a>
+                    </li>
+                    <li class="small-12 large-12 columns">
+                        <a href=""><i class="icony ion-ios-upload-outline"></i>Get Started</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lower_aside small-12 large-12 columns">
+                <div class="bar small-12 large-12 columns">
+                    <p>50GB / 100GB <i class="icony ion-ios-plus-outline"></i></p>
+                    <!--loading bar-->
+                    <div id="myProgress">
+                        <div id="myBar"></div>
+                    </div>
+                    <!--end-->
+                </div>
+                <a href="#" onclick="move();"><i class="icony ion-ios-arrow-thin-up"></i>Upgrade account</a>
+            </div>
+        </aside>
+        <!--main content-->
+        <div class="main_content small-6 large-9 columns">
+            <!--header-->
+            <header class="row extended">
+                <div class="top-bar">
+                    <div class="top-bar-left">
+                        <input type="search" placeholder="Search">
+                    </div>
+                    <div class="top-bar-right">
+                        <p><i class="icony ion-ios-bell-outline"></i>Orchardson bett</p>
+                    </div>
+                </div>
+
+                <div class="heading row extended">
+                    <h2>Photos</h2>
+                </div>
+                <div class="icons">
+                    <div class="icons_left small-12 large-6 columns">
+                        <ul class="menu">
+                            <li><i class="icony ion-ios-cloud-upload-outline"></i></li>
+                            <li><i class="icony ion-ios-folder-outline"></i></li>
+                            <li><i class="icony ion-ios-upload"></i></li>
+                            <li><i class="icony ion-document"></i></li>
+                        </ul>
+                    </div>
+                    <div class="icons_right small-12 large-6 columns">
+                        <ul class="menu linky">
+                            <li>
+                                <a href="#">Name</a>
+                            </li>
+                            <li>
+                                <a href="#">Size</a>
+                            </li>
+                            <li>
+                                <a href="#">Modified</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            <!--pictures-->
+            <div class="main row extended">
+                <section class="small-12 large-3 columns">
+                    <span>
+                            <img src="img/photo.jpg">
+                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                        </span>
+                    <h5>jinchi.jpg</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns"><img src="img/photo1.jpg">
+                    <h5>kakashi.jpg</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns"><img src="img/photo2.jpg">
+                    <h5>school.png</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns"><img src="img/photo14.jpg">
+                    <h5>snow.jpg</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo3.jpg">
+                    <h5>cute.png</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns"><img src="img/photo4.jpg">
+                    <h5>aviators.jpeg</h5>
+                    <p>4 MB</p>
+                </section>
+
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo5.jpg" alt="">
+                    <h5>dandelion double.jpg</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo6.jpg" alt="">
+                    <h5>double kodachi.mpeg</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo7.jpg" alt="">
+                    <h5>natsu.jpg</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo8.jpg" alt="">
+                    <h5>ichigo.png</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo9.jpg" alt="">
+                    <h5>ghoul.png</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo10.jpg" alt="">
+                    <h5>city.jpg</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo11.jpg" alt="">
+                    <h5>freeway.png</h5>
+                    <p>2 MB</p>
+                </section>
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo12.jpg" alt="">
+                    <h5>smile</h5>
+                    <p>1.2 MB</p>
+                </section>
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo13.jpg" alt="">
+                    <h5>sunset</h5>
+                    <p>4 MB</p>
+                </section>
+                <section class="small-12 large-3 columns">
+                    <img src="img/photo13.jpg" alt="">
+                    <h5>sunset</h5>
+                    <p>4 MB</p>
+                </section>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
