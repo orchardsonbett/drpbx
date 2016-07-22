@@ -1,0 +1,125 @@
+/*body*/
+
+body {
+    margin: 0;
+}
+.icony {
+    font-size: 24px;
+    color: deepskyblue;
+}
+.icons_left .icony {
+    margin-right: 5px;
+}
+a,
+h5,
+h2,
+p {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+/*aside*/
+
+aside {
+    height: 100%;
+    background-color: #444C63;
+    position: fixed;
+    text-align: center;
+    color: #5D6782;
+    font-family: 'Work Sans', sans-serif;
+}
+.functions li {
+    list-style: none;
+    text-align: center;
+}
+aside i {
+    color: deepskyblue;
+}
+aside a {
+    text-decoration: none;
+    color: #5D6782;
+    font-weight: 400;
+}
+aside a:hover {
+    color: floralwhite;
+}
+aside li {
+    text-align: justify;
+}
+.lower_aside {
+    padding-top: 40%;
+}
+.lower_aside a {
+    border: 2px solid deepskyblue;
+    padding: 4%;
+    border-radius: 1px;
+}
+.bar {
+    color: floralwhite;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+/*loading bar*/
+
+#myProgress {
+    width: 100%;
+    height: 5px;
+    background-color: floralwhite;
+}
+#myBar {
+    width: 1%;
+    height: 100%;
+    background-color: deepskyblue;
+}
+
+/*green top*/
+
+.top-bar {
+    background-color: white;
+}
+.top-bar-right {
+    width: 100%;
+    color: dimgrey;
+}
+#search {
+    border: 0;
+}
+
+/*photos heading*/
+
+.heading {
+    padding: 0 5%;
+    color: dimgrey;
+}
+
+/*action links*/
+
+.linky {
+    float: right;
+}
+.icons {
+    padding: 5% 1%;
+    margin: 0 2%;
+    border-bottom: 1px solid #e3e3e3;
+}
+.linky a {
+    color: dimgrey;
+    border-radius: 5px;
+}
+.linky a:hover {
+    color: floralwhite;
+    background-color: dimgrey;
+}
+
+/*main content*/
+
+.main {
+    padding-top: 5%;
+}
+
+/*images*/
+
+.main img {
+    width: 200px;
+    height: 200px;
+}
